@@ -11323,9 +11323,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #000000;
+  background-color: #FFFFFF;
   border-radius: 1rem;
-  border-color: #000000;
+  border-color: #FFFFFF;
 }
 
 .divider-custom-line-header {
@@ -11344,7 +11344,7 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #000000;
+  color: #FFFFFF;
   font-size: 2rem;
 }
 
@@ -11354,10 +11354,10 @@ html {
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #000000;
+  background-color: #FFFFFF;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .btn-xl {
