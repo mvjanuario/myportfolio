@@ -58,6 +58,16 @@
                             <img class="img-fluid" src="assets/portfolio/timbermanChallenge.png" alt="..." />
                         </div>
                     </div>
+
+                    <!-- Pokédex Item-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#pokedexReplicationModal">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-search-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/portfolio/pokedexReplication.png" alt="..." />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -128,12 +138,47 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/portfolio/timbermanChallengeGifDemo.gif" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">A simple replication of the game Timberman made as challenge.
+                                    <p class="mb-4">A simple replication of the game Timberman made as challenge to implement functionality using  <a href="https://github.com/modesttree/Zenject">Zenject</a> dependency injection framework.
                                     <br/>Created at Unity 2020.3.22f1</p>
                                     <p class="mb-4">
                                         Link to the game:
                                         <a class="btn btn-outline-light btn-social mx-1" href="https://mvjanuario.itch.io/timberman-challenge"><i class="fab fa-fw fa-itch-io"></i></a>
                                     </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pokédex Replication Modal-->
+        <div class="portfolio-modal modal fade" id="pokedexReplicationModal" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-primary text-uppercase mb-0">Pokédex Replication</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/portfolio/pokeDoidoGif.gif" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A simple replication of a Pokédex made as challenge to implement functionality using  <a href="https://docs.godotengine.org/en/stable/classes/class_httprequest.html">HTTPRequest</a>  Node in Godot. The game accesses the <a href="https://pokeapi.co/">Poké Api</a> to get pokemon data.
+                                    <br/><br/><br/>Created at Godot v4.4.2.stable.official</p>
+                                    
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window

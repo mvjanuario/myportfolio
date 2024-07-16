@@ -130,7 +130,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
-  color: #000000;
+  color: #ffffff;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -150,7 +150,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 h6, .h6 {
@@ -240,11 +240,11 @@ sup {
 }
 
 a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: underline;
 }
 a:hover {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
